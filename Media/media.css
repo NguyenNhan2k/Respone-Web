@@ -10,20 +10,20 @@ body {
     display: none;
 }
 /*Mobile: width < 740px */
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 46.1875em) {
     .mobile {
         display: block;
     }
 }
 
 /*Table: width: >=740px < 1024px */
-@media screen and (min-width: 740px) and (max-width: 1024px) {
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     .table{
         display: block;
     }
 }
 /*PC: width > 1024px*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64em) {
     .pc{
         display: block;
     }
